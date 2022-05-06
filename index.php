@@ -12,7 +12,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   	<div class="login-logo">
-  		<b>Northeastern Cebu Colleges, INC. Voting System</b>
+  		<b>GROUP 2 NCC, INC. Voting System</b>
   	</div>
   
   	<div class="login-box-body">
