@@ -1,0 +1,11 @@
+RUN AS ADMIN
+
+http://localhost:81/votesystem/admin/index.php
+
+
+username  Admin
+password  admin123
+
+
+Username: nurhodelta
+Password: password
