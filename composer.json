@@ -1,0 +1,14 @@
+{
+    "name": "admin/votesystem",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Votesystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raymond Lagonoy"
+        }
+    ],
+    "require": {}
+}
