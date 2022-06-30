@@ -94,8 +94,18 @@ include 'includes/session.php';
 
 
 	<script>
-		window.print();
-		close();
+		setTimeout(function(){
+		    window.print();
+		}, 500);
+		window.onfocus = function(){
+		    setTimeout(function(){
+    		    window.close();
+    		}, 500);
+		};
+		
+		window.onafterprint = function(){
+		    window.close();
+		}
 	</script>
 </body>
 
