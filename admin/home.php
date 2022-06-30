@@ -132,7 +132,7 @@
         <div class="col-xs-12">
           <h3>Votes Tally
             <span class="pull-right">
-              <a href="print.php" class="btn btn-success btn-sm btn-flat"><span class="glyphicon glyphicon-print"></span> Print</a>
+              <a href="javascript:openPrintDialog();" class="btn btn-success btn-sm btn-flat"><span class="glyphicon glyphicon-print"></span> Print</a>
             </span>
           </h3>
         </div>
@@ -247,5 +247,11 @@
     <?php
   }
 ?>
+
+<script>
+  function openPrintDialog(){
+    var openDialog = window.open('print.php', '_blank');
+  }
+</script>
 </body>
 </html>
