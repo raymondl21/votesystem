@@ -4,5 +4,5 @@ http://localhost:81/votesystem/admin/index.php
 
 
 username  Admin
-password  admin123
+password  admin
 
